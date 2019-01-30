@@ -1,0 +1,36 @@
+body{
+  background-image: url("bilde/insta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+nav{
+  background-color: Grey;
+  display: grid;
+  grid-template-columns: auto repeat(4,1fr);
+  align-items:center;
+  margin-bottom: 15px;
+}
+nav .heim{
+  background-color: orange;
+  font-weight: 800;
+  font-size: 32px;
+  padding:10px;
+}
+nav a{
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+h1{
+  margin-left: 30px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 2px black;
+}
